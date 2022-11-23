@@ -13,7 +13,7 @@ _component_func = components.declare_component(
 
 # Create the python function that will be called
 def st_codemirror(
-    text: str,
+    text: Optional[str],
     key: Optional[str] = None,
 ):
     """
