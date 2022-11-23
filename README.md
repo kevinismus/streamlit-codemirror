@@ -1,6 +1,6 @@
 # streamlit-codemirror
 
-A streamlit component that adds a CodeMirror instance into your Streamlit dashboard
+A streamlit component that adds a CodeMirror instance into your Streamlit dashboard. Currently only support SQL theme.
 
 ## Installation instructions 
 
@@ -13,8 +13,8 @@ pip install streamlit-codemirror
 ```python
 import streamlit as st
 
-from streamlit_codemirror import streamlit_codemirror
+from streamlit_codemirror import st_codemirror
 
-value = streamlit_codemirror()
+value = st_codemirror()
 
 st.write(value)
