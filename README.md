@@ -1,6 +1,6 @@
 # streamlit-codemirror
 
-A streamlit component that adds a CodeMirror instance into your Streamlit dashboard. Currently only support SQL theme.
+A streamlit component that adds a CodeMirror instance into your Streamlit dashboard. Currently only supports SQL theme.
 
 ## Installation instructions 
 
